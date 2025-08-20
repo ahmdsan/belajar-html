@@ -1,0 +1,58 @@
+.container-1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 2px dashed skyblue;
+    gap: 20px;
+    padding: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.item{
+    width: 80px;
+    height: 80px;
+    border: 1px solid rebeccapurple;
+    background-color: yellow;
+}
+
+.container-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 2px dashed skyblue;
+    gap: 20px;
+    padding: 20px;
+    flex-direction:column; 
+}
+
+.container-3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    border: 2px dashed skyblue;
+    gap: 20px;
+    padding: 20px;
+    align-content: flex-start;
+}
+
+.container-4{
+     width: 100%;
+    height: auto;
+    display: flex;
+    border: 2px dashed skyblue;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap-reverse;
+}
+
+.container-5{
+     width: 100%;
+    height: auto;
+    display: flex;
+    border: 2px dashed skyblue;
+    gap: 20px;
+    padding: 20px;
+    flex-shrink: 50;
+}
